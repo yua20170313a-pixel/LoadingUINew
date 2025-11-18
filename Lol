@@ -23,7 +23,7 @@ bg.BackgroundColor3 = Color3.fromRGB(10, 10, 20)
 bg.BackgroundTransparency = 1
 bg.ZIndex = 0
 TweenService:Create(bg, TweenInfo.new(0.5), {BackgroundTransparency = 0.3}):Play()
-
+local word = "0xyzHub"
 local letters = {}
 
 -- 画面サイズに応じて文字サイズ・間隔を計算
